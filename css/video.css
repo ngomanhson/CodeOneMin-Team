@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+body{
+    background-color: #FFB6C1;
+    font-family: 'Bree Serif', serif;
+}
+.box{
+   margin: 0px 320px;
+    width: 100px;
+}
+.box h1{
+    width: 800%;
+    margin: 30px 80px;
+    letter-spacing: 2px;
+}
+.an{
+  
+   margin: 20px 600px ;
+}
+.an .cute{
+    width: 120px;
+    height: 45px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.an .cute:hover{
+    background-color: cornsilk;
+}
+.an .deo{
+    width: 120px;
+    height: 45px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.an .deo:hover{
+    background-color: cornsilk;
+    margin: 0 50px;
+}

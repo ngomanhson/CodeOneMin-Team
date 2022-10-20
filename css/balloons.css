@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: #FFB6C1;
+}
+.ballon{
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    margin: 0 150px;
+    border-radius: 50%;
+    background-color: rgba(192, 1, 5, 0.4);
+    animation: move-up 5s;
+}
+.ballon::before{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 150px;
+    background-color: white;
+    top: 110px;
+    left: 50px;
+}
+.ballon::after{
+    position: absolute;
+    content: '';
+    border-bottom: 12px solid red;
+    border-left: 10px solid
+    transparent;
+    border-right: 10px solid
+    transparent;
+    top: 109px;
+    left: 41px;
+}
+.ballon:nth-child(2){
+    left: 140px;
+    background-color: rgba(0, 0, 255, 0.5);
+    animation-duration: 3s;
+}
+.ballon:nth-child(2)::after{
+    border-bottom: 12px solid blue;
+}
+.ballon:nth-child(3){
+    left: 300px;
+    background-color: rgba(255, 155, 0, 0.5);
+    animation-duration: 2s;
+}
+.ballon:nth-child(3)::after{
+    border-bottom: 12px solid orange;
+}
+
+.ballon:nth-child(4){
+    left: 831px;
+    background-color: rgba(18, 255, 138, 0.5); 
+    animation-duration: 3s;
+}
+.ballon:nth-child(4)::after{
+    border-bottom: 12px solid green;
+}
+.ballon:nth-child(5){
+    left: 990px;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+.ballon:nth-child(5)::after{
+    border-bottom: 12px solid white;
+}
+.ballon:nth-child(6){
+    left: 1080px;
+    background-color: rgba(255, 255, 0, 0.5); 
+    animation-duration: 2s;
+}
+.ballon:nth-child(9)::after{
+    border-bottom: 12px solid greenyellow;
+}
+
+@keyframes move-up{
+    0%{
+        top: 69%;
+    }
+    100%{
+        top: 0%;
+    }
+}
+.gift-box1{
+    position: fixed;
+    width: 55px;
+    height: 75px;
+    margin: 255px 160px;
+    line-height: 75px;
+    animation: gift 5s;
+}
+.gift-box2{
+    position: fixed;
+    width: 55px;
+    height: 75px;
+    margin: 255px 297px;
+    line-height: 75px;
+    animation: gift 3s;
+}
+.gift-box3{
+    position: fixed;
+    width: 55px;
+    height: 75px;
+    margin: 235px 458px;
+    line-height: 75px;
+    animation: gift 2s;
+}
+.gift-box4{
+    position: fixed;
+    width: 55px;
+    height: 75px;
+    margin: 255px 992px;
+    line-height: 75px;
+    animation: gift 3s;
+}
+.gift-box5{
+    position: fixed;
+    width: 55px;
+    height: 75px;
+    margin: 245px 1138px;
+    line-height: 75px;
+    animation: gift 5s;
+}
+.gift-box6{
+    position: fixed;
+    width: 55px;
+    height: 75px;
+    margin: 255px 1242px;
+    line-height: 75px;
+    animation: gift 2s;
+}
+
+@keyframes gift{
+    0%{
+        top: 69%;
+    }
+    100%{
+        top: 0%;
+    }
+}
+
+#confetti{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+  

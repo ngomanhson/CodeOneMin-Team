@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Spice&family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:wght@500&family=Carter+One&family=DM+Sans&family=Dangrek&family=Libre+Baskerville&family=Reem+Kufi+Ink&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Spice&display=swap');
+
+body{
+    overflow: hidden;
+    background-color: #dfb1b9;
+    font-family: 'Dancing Script', cursive;
+}
+.box{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    cursor: pointer;
+}
+.box::before{
+    position: absolute;
+    background-color: #e69c9f;
+    width: 100px;
+    height: 100px;
+    content: '';
+    bottom: 0;
+    left: 0;
+    clip-path: polygon(0 40%,50% 0,100% 40%,100% 100%,0 100%);
+    cursor: pointer;
+}
+.box::after{
+    position: absolute;
+    width: 100px;
+    background-color: #000;
+    content: '';
+    height: 10px;
+    bottom: -30px;
+    opacity: 0.4;
+    filter: blur(10px);
+    cursor: pointer;
+}
+.content{
+    position: absolute;
+    background-color: #fff;
+    width: 80%;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-1px);
+    height: 80px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.designBox{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #d26f72;
+    display: block;
+    clip-path: polygon(0 0, 50% 35%, 100% 0, 100% 100%,0 100%); 
+    cursor: pointer;
+}
+.designBox::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background-color: #bd5559;
+    content: '';
+    clip-path: polygon(0 100%,50% 0,100% 100%);
+    cursor: pointer;
+}
+.box:hover .content{
+    transform: translate(-50%,-30px);
+}
+input{
+    position: absolute;
+    left: -10px;
+    opacity: 0;
+}
+input:checked ~ .content{
+  bottom: 150px;
+  width: 400px;
+  height: 490px;
+  margin: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.content .tilte{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+display: none;
+font: normal 36px 'Open Sans', cursive;
+}
+.content .tilte span{
+    color:  lightseagreen;
+
+}
+.content .des{
+    padding: 10px 20px;
+display: none;
+
+}
+.content .des span{
+    color:  lightseagreen;
+    font: normal 18px 'Open Sans', cursive;
+}
+.content label{
+    width: 100%;
+    text-align: center;
+    display: block;
+    display: none;
+}
+.content img{
+    display: none;
+    width: 250px;
+    margin: -10px 50px;
+}
+input:checked ~ .content img,
+input:checked ~ .content .tilte,
+input:checked ~ .content .des,
+input:checked ~ .content label{
+display: block;
+opacity: 0;
+animation: show 1s ease-in-out 0.5s 1 forwards;
+}
+input:checked ~ .content .tilte{
+    animation-delay: 0.7s!important;
+}
+input:checked ~ .content .des{
+    animation-delay: 0.9s!important; 
+}
+input:checked ~ .content label{
+    animation-delay: 1.1s!important; 
+}
+@keyframes show{
+    from{
+        opacity: 0;
+        transform: translate(0,50px);
+    }to{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+.content .des{
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.mussi{
+    margin: 600px 50px;
+}
