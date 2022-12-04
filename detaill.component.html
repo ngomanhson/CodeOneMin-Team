@@ -1,0 +1,340 @@
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <div class="section-all">
+    <div class="container-1">
+      <div class="product">
+        <div class="product-img">
+          <img src="./assets/images/appleWatch.jpg" onclick="myFunction(this)" alt=""/>
+          <img src="./assets/images/appleWatch2.jpg" onclick="myFunction(this)" alt=""/>
+          <img src="./assets/images/appleWatch3.jpg" onclick="myFunction(this)" alt=""/>
+          <img src="./assets/images/appleWatch4.jpg" onclick="myFunction(this)" alt=""/>
+        </div>
+        <div class="img-container">
+          <img src="./assets/images/appleWatch.jpg" id="imgBox" alt=""/>
+        </div>
+      </div>
+      <div class="inner">
+        <h2>Apple Watch</h2>
+        <span class="amount">$155.00 - $255.00</span>
+        <div class="feedback-star">
+          <i class='bx bxs-star' ></i>
+          <i class='bx bxs-star' ></i>
+          <i class='bx bxs-star' ></i>
+          <i class='bx bxs-star' ></i>
+          <i class='bx bx-star'></i>
+          <p class="feedback-title">(3 customer review)</p>
+        </div>
+        <div class="hr"></div>
+      </div>
+      <ul class="product-meta">
+        <li><i class='bx bx-check'></i>In stock</li>
+        <li><i class='bx bx-check'></i>Free delivery available</li>
+        <li><i class='bx bx-check'></i>Sales 30% Off Use Code: CodeOneMin</li>
+      </ul>
+      <p class="description">
+        In ornare lorem ut est dapibus, ut tincidunt nisi pretium.
+        Integer ante est, elementum eget magna.
+        Pellentesque sagittis dictum libero, eu dignissim tellus.
+      </p>
+      <form>
+      <div class="product-variation">
+        <h6 class="title">Colors:</h6>
+      </div>
+      <div class="focus-color">
+        <div class="color-select">
+          <label for="orange">
+            <input type="radio" name="color" id="orange">
+            <span class="color-1"></span>
+          </label>
+          <label for="blueviolet">
+            <input type="radio" name="color" id="blueviolet">
+            <span class="color-2"></span>
+          </label>
+          <label for="mediumvioletred">
+            <input type="radio" name="color" id="mediumvioletred">
+            <span class="color-3"></span>
+          </label>
+        </div>
+      </div>
+      <div class="size">
+        <h6 class="title">Size:</h6>
+        <div class="btn-size">
+          <div class="size-select">
+            <label for="sizeS">
+              <input type="radio" name="size" id="sizeS" required/>
+              <span class="size">S</span>
+            </label>
+            <label for="sizeM">
+              <input type="radio" name="size" id="sizeM" required/>
+              <span class="size">M</span>
+            </label>
+            <label for="sizeL">
+              <input type="radio" name="size" id="sizeL" required/>
+              <span class="size">L</span>
+            </label>
+            <label for="sizeXL">
+              <input type="radio" name="size" id="sizeXL" required/>
+              <span class="size">XL</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+        <form class="tang-giam">
+            <h5 class="soluong-sphm">Amount: </h5>
+            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+            <input type="number" id="soluong" value="1" />
+            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+        </form>
+      <div class="add-to-card">
+        <div class="add-cart">
+          <button type="button">Add to Cart</button>
+        </div>
+        <div class="heart">
+          <button type="button"><i class='bx bx-heart' ></i></button>
+        </div>
+      </div>
+      </form>
+      <div class="describe">
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'description')">Description</button>
+        <button class="tablinks" onclick="openCity(event, 'information')">Additional Information</button>
+        <button class="tablinks active" onclick="openCity(event, 'review')">Reviews</button>
+      </div>
+
+      <div id="description" class="tabcontent" style="display: none">
+        <div class="around-1">
+        <div class="single-desc">
+          <h5 class="tab-content">Specifications: </h5>
+          <p>
+            We’ve created a full-stack structure for our working workflow processes,
+            were from the funny the century initial all the made, have spare to negatives.
+            But the structure was from the funny the century rather, initial all the made, have spare to negatives.
+          </p>
+        </div>
+        <div class="single-desc">
+          <h5 class="tab-content">Care & Maintenance: </h5>
+          <p>
+            Use warm water to describe us as a product team that creates amazing UI/UX experiences,
+            by crafting top-notch user experience.
+          </p>
+        </div>
+        <div class="features">
+          <div class="img-icon">
+            <div class="icons">
+              <img src="./assets/images/service3.png" alt=""/>
+            </div>
+            <h5>Easy Returns</h5>
+          </div>
+          <div class="img-icon">
+            <div class="icons">
+              <img src="./assets/images/service2.png" alt=""/>
+            </div>
+            <h5>Quality Service</h5>
+          </div>
+          <div class="img-icon">
+            <div class="icons">
+              <img src="./assets/images/service1.png" alt=""/>
+            </div>
+            <h5>Original Product</h5>
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+      <div id="information" class="tabcontent" style="display: none">
+        <div class="around-2">
+          <div class="bg-content">
+          <table class="customers">
+            <tr>
+              <td>Stand Up</td>
+              <td>35″L x 24″W x 37-45″H(front to back wheel)</td>
+            </tr>
+            <tr>
+              <td>Folded (W/O Wheels)</td>
+              <td>32.5″L x 18.5″W x 16.5″H</td>
+            </tr>
+            <tr>
+              <td>Folded (W/ Wheels)</td>
+              <td>32.5″L x 24″W x 18.5″H</td>
+            </tr>
+            <tr>
+              <td>Door Pass Through</td>
+              <td>24</td>
+            <tr>
+              <td>Frame</td>
+              <td>Aluminum</td>
+            </tr>
+            <tr>
+              <td>Weight (W/O Wheels)</td>
+              <td>20 LBS</td>
+            </tr>
+            <tr>
+              <td>Weight Capacity</td>
+              <td>60 LBS</td>
+            </tr>
+            <tr>
+              <td>Width</td>
+              <td>24″</td>
+            </tr>
+            <tr>
+              <td>Handle Height (Ground To Handle)</td>
+              <td>37-45″</td>
+            </tr>
+            <tr>
+              <td>Wheels</td>
+              <td>Aluminum</td>
+            </tr>
+            <tr>
+              <td>Size</td>
+              <td>S, M, L, XL</td>
+            </tr>
+          </table>
+          </div>
+       </div>
+      </div>
+
+      <div id="review" class="tabcontent" style="display: block">
+        <div class="around-3">
+        <div class="reviews-wrapper">
+          <h1>03 Review for this product</h1>
+          <div class="comment">
+            <div class="user-img">
+              <img src="./assets/images/images.jpg" alt=""/>
+            </div>
+            <div class="user-comment">
+              <a href="#">Devon Lane</a>
+            </div>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+            <div class="comment-list">
+              <p>
+                “We’ve created a full-stack structure for our working workflow processes,
+                were from the funny the century initial all the made, have spare to negatives. ”
+              </p>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="user-img">
+              <img src="./assets/images/images.jpg" alt=""/>
+            </div>
+            <div class="user-comment">
+              <a href="#">Devon Lane</a>
+            </div>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+            <div class="comment-list">
+              <p>
+                “We’ve created a full-stack structure for our working workflow processes,
+                were from the funny the century initial all the made, have spare to negatives. ”
+              </p>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="user-img">
+              <img src="./assets/images/images.jpg" alt=""/>
+            </div>
+            <div class="user-comment">
+              <a href="#">Devon Lane</a>
+            </div>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+            <div class="comment-list">
+              <p>
+                “We’ve created a full-stack structure for our working workflow processes,
+                were from the funny the century initial all the made, have spare to negatives. ”
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="send-review">
+          <div class="title-comment">
+            <h5>Add a Review</h5>
+            <p>
+              Your email address will not be published.
+              Required fields are marked<span> *</span>
+            </p>
+          </div>
+          <div class="rating-wrapper">
+            <h6>Your Rating<span>*</span></h6>
+          </div>
+          <div class="stars">
+              <input class="star star-5" id="star-5-2" type="radio" name="star"/>
+              <label class="star star-5" for="star-5-2"></label>
+              <input class="star star-4" id="star-4-2" type="radio" name="star"/>
+              <label class="star star-4" for="star-4-2"></label>
+              <input class="star star-3" id="star-3-2" type="radio" name="star"/>
+              <label class="star star-3" for="star-3-2"></label>
+              <input class="star star-2" id="star-2-2" type="radio" name="star"/>
+              <label class="star star-2" for="star-2-2"></label>
+              <input class="star star-1" id="star-1-2" type="radio" name="star"/>
+              <label class="star star-1" for="star-1-2"></label>
+          </div>
+          <div class="comment-input">
+            <form action="" method="POST">
+              <div class="mb-3">
+                <label class="form-label-1">Other Notes (optional)<span>*</span></label>
+                <input type="text" name="optional" class="form-control-1" id="exampleFormControlInput1" required placeholder="Your Comment"/>
+              </div>
+              <div class="mb-2">
+                <label class="form-label-2">Name <span>*</span></label>
+                <input type="text" name="name" class="form-control-2" required />
+              </div>
+              <div class="mb-2">
+                <label  class="form-label-3">Email <span>*</span></label>
+                <input type="email" name="email" class="form-control-3" required />
+              </div>
+              <div class="review-submit">
+                <button type="submit" class="Send">Send Message</button>
+              </div>
+            </form>
+          </div>
+          </div>
+      </div>
+      </div>
+    </div>
+     <div class="related">
+        <div class="menu-text">
+          <span><i class='bx bxs-shopping-bags'></i>Related Product</span>
+          <h2>Similar Items</h2>
+        </div>
+
+      </div>
+
+      <div class="container-newsletter">
+      <div class="newsletter-wrapper">
+        <img src="assets/images/form_section.jpg" alt=""/>
+        <div class="menu-text">
+          <span><i class='bx bxs-envelope'></i>Newsletter</span>
+          <h2>Get weekly update</h2>
+        </div>
+        <div class="newsletter-form">
+          <form action="#" method="get">
+            <i class='bx bx-mail-send' ></i>
+            <input type="email" required placeholder="CodeOneMin@gmail.com"/>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bxs-to-top'></i></button>
