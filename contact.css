@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Hind+Madurai:wght@500&family=Noto+Sans+Limbu&family=Poppins&family=Roboto&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+.navigation-contact{
+  margin-top: 100px;
+}
+.navigation-contact .container{
+  margin: 0;
+  padding: 0;
+}
+.navigation-contact .container .img-navct{
+  width: 100%;
+}
+.navigation-contact .container .img-navct img{
+  width: 115.1%;
+  overflow: hidden;
+}
+.navigation-contact .container .mhder{
+  width: 100%;
+  margin-left: 100px;
+}
+.navigation-contact .container .mhder .row .hienthi-nav{
+  background-color: #fff;
+  height: 200px;
+}
+.navigation-contact .container .mhder .row .hienthi-nav .inner-contact{
+  margin-top: 35px;
+}
+.navigation-contact .container .mhder .row .hienthi-nav .inner-contact ul li{
+  float: left;
+  display: flex;
+}
+.navigation-contact .container .mhder .row .hienthi-nav .inner-contact ul .ct-items a{
+  margin-right: 10px;
+  font-size: 17px;
+  color: #777;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.navigation-contact .container .mhder .row .hienthi-nav .inner-contact ul .ct-items a:hover{
+  color: #3577f0;
+}
+.navigation-contact .container .mhder .row .hienthi-nav .inner-contact ul .ct-none-item{
+  width: 2px;
+  margin-top: 6px;
+  height: 15px;
+  background: #777;
+}
+.navigation-contact .container .mhder .row .hienthi-nav .inner-contact ul .ct-items-act{
+  margin-left: 10px;
+  font-size: 17px;
+  color: #3577f0;
+  font-weight: 600;
+}
+.navigation-contact .container .mhder .row .hienthi-nav h1{
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+.navigation-contact .container .mhder .row .hienthi-nav img{
+  width: 165px;
+  margin-top: 14px;
+  margin-left: 415px;
+}
+.section-contact{
+  width: 100%;
+  margin-top: 55px;
+}
+.section-contact .container{
+  width: 100%;
+}
+.section-contact .container .stn .col-8{
+  height: auto;
+  background: #fff;
+}
+.section-contact .container .stn .col-8 .contact-form h3{
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+}
+.section-contact .container .stn .col-8 .contact-form p{
+  margin-top: 18px;
+  font-size: 17px;
+  color: #777;
+}
+.contact-form #contact-form .nhap-thongtin{
+  margin-top: 50px;
+  display: flex;
+  height: auto;
+}
+.contact-form #contact-form .nhap-thongtin .ipt{
+  position: relative;
+  height: 50px;
+}
+.contact-form #contact-form .nhap-thongtin .ipt label{
+  position: absolute;
+  top: -12px;
+  left: 19px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #777;
+  background: #fff;
+  padding: 0 10px;
+}
+.contact-form #contact-form .nhap-thongtin .ipt label span{
+  color: #ff0000;
+}
+.contact-form #contact-form .nhap-thongtin .ipt input{
+  width: 95%;
+  height: 55px;
+  padding: 0 20px;
+  outline: none;
+  border: 1px solid #777;
+  border-radius: 6px;
+  background: none;
+}
+.contact-form #contact-form .nhap-thongtin .ipt input:focus{
+  border: 1px solid #3577f0;
+}
+.contact-form #contact-form .nhap-thongtin .tera{
+  position: relative;
+ }
+.contact-form #contact-form .nhap-thongtin .tera label{
+  position: absolute;
+  top: -12px;
+  left: 19px;
+  padding: 0 10px;
+  background: #fff;
+}
+.contact-form #contact-form .nhap-thongtin .tera textarea{
+  width: 98.5%;
+  height: 180px;
+  border-radius: 6px;
+  border: 1px solid #777;
+  padding: 25px;
+  outline: none;
+  background: none;
+}
+.contact-form #contact-form .nhap-thongtin .tera textarea:focus{
+  border: 1px solid #3577f0;
+}
+.contact-form #contact-form .submit-ct button{
+  width: 160px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 25px;
+  background: #3577f0;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+.contact-form #contact-form .submit-ct button:hover{
+  background: #000;
+}
+.section-contact .container .stn .menu-right.col-4{
+  height: auto;
+  background-color: #fff;
+}
+.menu-right.col-4 .location-ct{
+  margin: 3px 20px;
+}
+.menu-right.col-4 .location-ct h4{
+  font-size: 25px;
+  font-weight: 600;
+}
+.menu-right.col-4 .location-ct span{
+  margin-top: 45px;
+  font-size: 17px;
+  color: #777;
+  line-height: 38px;
+}
+.menu-right.col-4 .career-ct{
+  margin: 47px 0 0 20px;
+}
+.menu-right.col-4 .career-ct h4{
+
+  font-size: 25px;
+  font-weight: 600;
+}
+.menu-right.col-4 .career-ct span{
+  margin-top: 45px;
+  font-size: 17px;
+  color: #777;
+  line-height: 38px;
+}
+.menu-right.col-4 .opening-ct{
+  margin: 55px 20px;
+}
+.menu-right.col-4 .opening-ct h4{
+  font-size: 25px;
+  font-weight: 600;
+}
+.menu-right.col-4 .opening-ct span{
+  margin-top: 45px;
+  font-size: 17px;
+  color: #777;
+  line-height: 38px;
+}
+.section-contact .container iframe{
+  margin-top: 55px;
+  border-radius: 6px;
+}
