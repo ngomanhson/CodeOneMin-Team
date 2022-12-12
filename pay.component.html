@@ -1,0 +1,234 @@
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+<div class="navigation-pay">
+  <div class="container">
+    <div class="imghd-pay">
+      <img src="./assets/images/navbar.png" alt="" />
+    </div>
+  </div>
+</div>
+<div class="section-pay">
+  <div class="container">
+    <form>
+    <div class="row">
+      <div class="checkout col-6">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <div class="dnhap">
+                  <i class='bx bxs-user'></i>
+                  <span>Returning customer? <a href="#">Click here to login </a></span>
+                </div>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="dnh-open">
+                  <p>If you didn't Logged in, Please Log in first.</p>
+                  <div class="dnhap-box">
+                    <form>
+                      <div class="form-group-6">
+                        <label >Email</label>
+                        <input type="email" class="form-control5" name="email" required/>
+                      </div>
+                      <div class="form-group-6">
+                        <label >Password</label>
+                        <input type="password" class="form-control5" name="password" required/>
+                      </div>
+                      <div class="btn-dangnh">
+                        <button type="submit">Login</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <div class="dnhap-2">
+                  <i class='bx bxs-pencil' ></i>
+                  <span>Have a coupon? <a href="#">Click here to enter your code </a></span>
+                </div>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <form>
+                  <div class="magiamgia">
+                    <p>If you have a coupon code, please apply it below.</p>
+                    <input type="text" required placeholder="Enter coupon code"/>
+                    <button type="submit">Apply</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="check-billing">
+            <h4>Billing details</h4>
+
+              <div class="nhap-name row">
+                <div class="fl-name col-6">
+                  <div class="form-group-7">
+                    <label>First Name <span>*</span></label>
+                    <input type="text" name="first-name" required placeholder="Adam"/>
+                  </div>
+                </div>
+                <div class="fl-name col-6">
+                  <div class="form-group-7">
+                    <label>First Name <span>*</span></label>
+                    <input type="text" name="first-name" required placeholder="John"/>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group-7">
+                <label>Company Name</label>
+                <input type="text" name="company" required />
+              </div>
+              <div class="form-group-7">
+                <label>Country/ Region <span>*</span></label>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Viet Nam</option>
+                  <option value="1">India</option>
+                  <option value="2">Australia</option>
+                  <option value="3">United States (USA)</option>
+                </select>
+              </div>
+              <div class="form-group-7">
+                <label>Street Address <span>*</span></label>
+                <input type="text" id="address1" required placeholder="House number and street name"/>
+                <input type="text" id="address2" required placeholder="Apartment, suite, unit, etc. (optonal)"/>
+              </div>
+              <div class="form-group-7">
+                <label>Town/ City <span>*</span></label>
+                <input type="text" required />
+              </div>
+              <div class="form-group-7">
+                <label>Country <span>*</span></label>
+                <input type="text" required />
+              </div>
+              <div class="form-group-7">
+                <label>Phone <span>*</span></label>
+                <input type="text" required />
+              </div>
+              <div class="form-group-7">
+                <label>Email Address <span>*</span></label>
+                <input type="email" name="email" required/>
+              </div>
+              <div class="form-check-2">
+                <input type="checkbox" required/>
+                <label>Confirm the above information is correct</label>
+              </div>
+              <div class="form-group-7">
+                <label>Other Notes (optional)</label>
+                <textarea placeholder="Notes about your order, e.g. speacial notes for delivery."></textarea>
+              </div>
+          </div>
+        </div>
+     </div>
+      <div class="checkout-2 col-6">
+        <div class="order-checkout-summery">
+          <h5>Your Order</h5>
+          <div class="table-wrap">
+            <table>
+              <thead>
+              <tr>
+                <th class="left">Product</th>
+                <th class="right">Subtotal</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr class="user-order">
+                <td>Marshall Major 3
+                  <span class="soluong">x1</span>
+                </td>
+                <td class="gia">$159.00</td>
+              </tr>
+              <tr class="user-order">
+                <td>Dareu A87 Childhood
+                  <span class="soluong">x1</span>
+                </td>
+                <td class="gia">$129.00</td>
+              </tr>
+              <tr class="user-order">
+                <td>Razer Blade 13 Base
+                  <span class="soluong">x1</span>
+                </td>
+                <td class="gia">$159.00</td>
+              </tr>
+              <tr class="user-order">
+                <td>Apple TV 4K 64GB
+                  <span class="soluong">x1</span>
+                </td>
+                <td class="gia">$129.00</td>
+              </tr>
+              <tr class="user-order">
+                <td>SS - washing machine 9.5kg
+                  <span class="soluong">x1</span>
+                </td>
+                <td class="gia">$289.00</td>
+              </tr>
+
+              <tr class="order-shipping">
+                <td colspan="2" class="k-vien">
+                  <div class="shipping-amount">
+                    <span class="title">Shipping Method</span>
+                    <span class="amount">$35.00</span>
+                  </div>
+                  <div class="ipt-ship">
+                    <input type="radio" id="ship1" name="ship" checked/>
+                    <label for="ship1">Free Shippping</label>
+                  </div>
+                  <div class="ipt-ship">
+                    <input type="radio" id="ship2" name="ship"/>
+                    <label for="ship2">Local</label>
+                  </div>
+                  <div class="ipt-ship">
+                    <input type="radio" id="ship3" name="ship"/>
+                    <label for="ship3">Flat rate</label>
+                  </div>
+
+                </td>
+              </tr>
+              <tr class="tinhtong">
+                <td class="txt-tong">Total</td>
+                <td class="tongtien">$900.00</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="phuongthuctt">
+            <div class="htttoan">
+              <div class="chonht">
+                <input type="radio" required/>
+                <label>Direct bank transfer</label>
+              </div>
+              <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+            </div>
+            <div class="htttoan">
+              <div class="chonht">
+                <input type="radio" required/>
+                <label>Cash on delivery</label>
+              </div>
+              <p>Pay with cash upon delivery.</p>
+            </div>
+            <div class="htttoan">
+              <div class="chonht">
+                <input type="radio" required checked/>
+                <label>Paypal</label>
+                <img src="assets/images/payment.png" alt="" />
+              </div>
+              <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
+            </div>
+          </div>
+          <button type="submit" class="nut-ttoan">Process to Checkout</button>
+        </div>
+      </div>
+    </div>
+    </form>
+  </div>
+</div>
+</body>
